@@ -3,9 +3,19 @@ I tried to make code as efficint as I could so the huffman tree is a canonical h
 Best combination I could come up with is in Compressor.py so use it to compress and test files.
 
 Results (on my potato PC):
-                    Ratio       Compression time(sec)     Decompression time(sec)    Orignal File Size(KB)
-test1.txt ->         71%                3.5                        2.5                       593
-test2.txt ->        73.5%                8                          5                        1314 
-test3.txt ->         82%                25                          10                       2943
+
+
+File Name -> Ratio , Compression time , Decompression time , Orignal File Size:
+					
+					
+test1.txt ->         71% , 3.5s , 2.5s , 593 KB
+
+
+test2.txt ->        73.5% , 8s  , 5s , 1314 KB
+
+
+test3.txt ->         82% , 25s  , 10s , 2943 KB
+
+
 
 Compressor.py require tqdm but can be easily removed ,it just adds a progress bar to know how fast each stage is working.
