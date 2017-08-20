@@ -1,2 +1,2 @@
 # Compression
-My attempt on learning compression and creating an efficinet file comression algorithm using python.
+My attempt on learning and thinking of new compression algorithm using python3.
