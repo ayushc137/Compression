@@ -1,2 +1,2 @@
 # Compression
-My attempt on learning and thinking of new compression algorithm using python3.
+My attempt on learning new compression algorithm using python3.
